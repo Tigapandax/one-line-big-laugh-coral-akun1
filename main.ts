@@ -1,3 +1,5 @@
+// One Line, Big Laugh — the sealed scorer reads /output/entry.txt only,
+// so the line is written there (stdout alone scores Valid 0).
 import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
